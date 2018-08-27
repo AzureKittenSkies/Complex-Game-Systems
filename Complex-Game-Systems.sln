@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex-Game-Systems", "Assembly-CSharp.csproj", "{3DF58753-CC16-D79D-5735-F202E13095F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex-Game-Systems", "Assembly-CSharp-firstpass.csproj", "{654F03C0-59D2-AAA8-25EE-256816F86DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex-Game-Systems", "Assembly-CSharp-Editor-firstpass.csproj", "{C443F862-AD63-D1A0-2594-87850EAE9998}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{3DF58753-CC16-D79D-5735-F202E13095F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DF58753-CC16-D79D-5735-F202E13095F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DF58753-CC16-D79D-5735-F202E13095F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654F03C0-59D2-AAA8-25EE-256816F86DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654F03C0-59D2-AAA8-25EE-256816F86DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654F03C0-59D2-AAA8-25EE-256816F86DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654F03C0-59D2-AAA8-25EE-256816F86DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C443F862-AD63-D1A0-2594-87850EAE9998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C443F862-AD63-D1A0-2594-87850EAE9998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C443F862-AD63-D1A0-2594-87850EAE9998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C443F862-AD63-D1A0-2594-87850EAE9998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
