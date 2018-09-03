@@ -61,7 +61,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Checkers\Scripts\CameraFly.cs" />
+    <Compile Include="Assets\Checkers\Scripts\Cameras\CameraFly.cs" />
+    <Compile Include="Assets\Checkers\Scripts\Game\CheckerBoard.cs" />
+    <Compile Include="Assets\Checkers\Scripts\Game\Piece.cs" />
+    <Compile Include="Assets\Checkers\Scripts\Network\Client.cs" />
+    <Compile Include="Assets\Checkers\Scripts\Network\Clients\GameClient.cs" />
+    <Compile Include="Assets\Checkers\Scripts\Network\Clients\ServerClient.cs" />
+    <Compile Include="Assets\Checkers\Scripts\Network\Server.cs" />
+    <Compile Include="Assets\Checkers\Scripts\UI\SendButton.cs" />
     <Compile Include="Assets\UNET\Scripts\Controllers\PlayerController.cs" />
     <Compile Include="Assets\UNET\Scripts\Input\NetworkPlayerInput.cs" />
     <Compile Include="Assets\UNET\Scripts\Input\PlayerInput.cs" />
