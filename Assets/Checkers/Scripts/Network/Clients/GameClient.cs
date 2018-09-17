@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameClient : MonoBehaviour {
+namespace Checkers
+{
+    public class GameClient : MonoBehaviour
+    {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        public string name;
+        public bool isHost;
+    }
 }

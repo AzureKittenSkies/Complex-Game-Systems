@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ServerClient : MonoBehaviour {
+namespace Checkers
+{
+    public class ServerClient : MonoBehaviour
+    {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        public string clientName;
+        public TcpClient tcp;
+        public bool isHost;
+
+        public ServerClient(TcpClient tcp)
+        {
+            this.tcp = tcp;
+        }
+    }
 }
