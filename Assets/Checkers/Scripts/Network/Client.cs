@@ -115,7 +115,7 @@ namespace Checkers
 
             if (players.Count == 2)
             {
-                GameManager.Instance.StartGame();
+                //GameManager.Instance.StartGame();
             }
         }
 

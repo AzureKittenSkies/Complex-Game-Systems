@@ -69,6 +69,12 @@
     <Compile Include="Assets\Checkers\Scripts\Network\Clients\ServerClient.cs" />
     <Compile Include="Assets\Checkers\Scripts\Network\Server.cs" />
     <Compile Include="Assets\Checkers\Scripts\UI\SendButton.cs" />
+    <Compile Include="Assets\Examples\Scriptable Objects\Scripts\Data\EnemyData.cs" />
+    <Compile Include="Assets\Examples\Scriptable Objects\Scripts\Enemies\Cannon.cs" />
+    <Compile Include="Assets\Examples\Scriptable Objects\Scripts\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Examples\Scriptable Objects\Scripts\Enemies\Tnt.cs" />
+    <Compile Include="Assets\Examples\Scriptable Objects\Scripts\Player.cs" />
+    <Compile Include="Assets\Examples\Scriptable Objects\Scripts\Projectile.cs" />
     <Compile Include="Assets\UNET\Scripts\Controllers\PlayerController.cs" />
     <Compile Include="Assets\UNET\Scripts\Input\NetworkPlayerInput.cs" />
     <Compile Include="Assets\UNET\Scripts\Input\PlayerInput.cs" />

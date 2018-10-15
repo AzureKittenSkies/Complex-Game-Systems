@@ -101,7 +101,7 @@ namespace Checkers
     // runs command to continue listening for a tcp client to connect
     private void StartListening()
     {
-        Server.BeginAcceptTcpClient(AcceptTcpClient, server);
+        //Server.BeginAcceptTcpClient(AcceptTcpClient, server);
     }
 
     // callback method for listening for tcp clients
